@@ -1,0 +1,22 @@
+[
+  {
+    "title": "The Great Summer Quest of Prisha and Samaira",
+    "thumbnail": "assets/stories/great_summer_quest/images/page_0.webp",
+    "story": "assets/stories/great_summer_quest/story.json"
+  },
+  {
+    "title": "Best Day Out",
+    "thumbnail": "assets/stories/best_day_out/images/page_0.webp",
+    "story": "assets/stories/best_day_out/story.json"
+  },
+  {
+    "title": "The Case of the Sleepy Squirrel\u2019s Secret",
+    "thumbnail": "assets/stories/sleepy_squirrel_secret/images/page_0.webp",
+    "story": "assets/stories/sleepy_squirrel_secret/story.json"
+  },
+  {
+    "title": "Pranay and Viraj the Bee",
+    "thumbnail": "assets/stories/pranay_and_golden_helper/images/page_0.webp",
+    "story": "assets/stories/pranay_and_golden_helper/story.json"
+  }
+]

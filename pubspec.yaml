@@ -1,0 +1,52 @@
+name: prisam_books
+description: PriSam Books - storybook with animations and narration hooks
+publish_to: "none"
+version: 0.0.1
+
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  lottie: ^2.2.0
+  # Temporarily removed `rive` due to build-time incompatibility with
+  # the current Flutter/Dart SDK. Re-add after resolving a compatible
+  # package version.
+  audioplayers: ^1.0.1
+  flutter_tts: ^3.5.0
+  webview_flutter: ^4.0.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/books.json
+    - assets/audio/
+    - assets/images/
+    - assets/stories/
+    # Explicit per-story images & audio (ensure packaging of story assets)
+    - assets/stories/best_day_out/images/
+    - assets/stories/best_day_out/audio/
+    - assets/stories/great_summer_quest/images/
+    - assets/stories/great_summer_quest/audio/
+    - assets/stories/sleepy_squirrel_secret/images/
+    - assets/stories/sleepy_squirrel_secret/audio/
+    - assets/stories/pranay_and_golden_helper/images/
+    - assets/stories/pranay_and_golden_helper/audio/
+    # Per-story manifest files
+    - assets/stories/best_day_out/story.json
+    - assets/stories/great_summer_quest/story.json
+    - assets/stories/sleepy_squirrel_secret/story.json
+    - assets/stories/pranay_and_golden_helper/story.json
+
+flutter_launcher_icons:
+  android: "ic_launcher"
+  ios: false
+  image_path: "assets/images/app_icon.png"
+  min_sdk_android: 21
