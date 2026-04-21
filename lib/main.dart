@@ -30,6 +30,12 @@ Future<void> main() async {
     DeviceOrientation.portraitDown,
   ]);
 
+  SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
+    statusBarColor: Colors.transparent,
+    statusBarIconBrightness: Brightness.dark, // Black icons for white bg
+    statusBarBrightness: Brightness.light, // For iOS
+  ));
+
   runApp(const StoryBooksApp());
 }
 

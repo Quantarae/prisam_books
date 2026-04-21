@@ -170,6 +170,7 @@ class _StoryScreenState extends State<StoryScreen> with WidgetsBindingObserver {
         extendBodyBehindAppBar: true,
         appBar: AppBar(
           elevation: 0,
+          systemOverlayStyle: SystemUiOverlayStyle.dark,
           backgroundColor: Colors.transparent,
           iconTheme: const IconThemeData(color: Colors.black87),
           title: Text(

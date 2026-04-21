@@ -44,6 +44,7 @@ class _IndexScreenState extends State<IndexScreen> {
       extendBodyBehindAppBar: true,
       appBar: AppBar(
         elevation: 0,
+        systemOverlayStyle: SystemUiOverlayStyle.dark,
         backgroundColor: Colors.transparent,
         flexibleSpace: ClipRect(
           child: BackdropFilter(

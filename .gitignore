@@ -22,3 +22,5 @@ android/app/key.properties
 .vscode/
 *.iml
 .DS_Store
+.gradle/
+android/.gradle/
