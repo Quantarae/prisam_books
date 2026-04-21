@@ -12,9 +12,7 @@ ios/Flutter/App.framework
 ios/Flutter/Flutter.framework
 ios/Flutter/Generated.xcconfig
 ios/Flutter/flutter_export_environment.sh
-android/key.properties
 android/app/key.properties
-*.jks
 *.keystore
 *.p12
 *.pem
@@ -24,3 +22,8 @@ android/app/key.properties
 .DS_Store
 .gradle/
 android/.gradle/
+
+# Logs and caches
+*.log
+.temp/
+.env
