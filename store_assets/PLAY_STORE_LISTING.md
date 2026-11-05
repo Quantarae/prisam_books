@@ -27,9 +27,9 @@ Initial Release: Welcome to PriSam Books! Join Prisha and Samaira in their first
 ---
 
 ### 2. Legal & Links
-*   **Privacy Policy URL**: https://quantarae.github.io/legal/prisam_books/
-*   **Support Email**: support@quantarae.com
-*   **Website**: https://quantarae.github.io/
+*   **Privacy Policy URL**: [Google Sites URL] (e.g., https://sites.google.com/view/quantarae/privacy-policy)
+*   **Support Email**: systemwallpapers@gmail.com
+*   **Policy Asset**: `store_assets/privacy_policy.html`
 
 ---
 
